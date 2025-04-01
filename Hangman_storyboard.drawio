@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.0">
+  <diagram name="Page-1" id="Di64SC1URlysvnts--dn">
+    <mxGraphModel dx="1010" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-15" value="Player Chose&lt;div&gt;&quot;add&quot;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-1" target="QXbLeOJ_4Gdq7aWpGLUa-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-41" value="Player Chose&lt;div&gt;&quot;play&quot;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-1" target="QXbLeOJ_4Gdq7aWpGLUa-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-1" value="Start Game Screen:&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Welcome to Hangman!&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Do you want to play Hangman or add a custom word? (play/add):&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" y="440" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-125" value="attempts&amp;nbsp;&lt;div&gt;= 0&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-3" target="QXbLeOJ_4Gdq7aWpGLUa-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-3" target="by8Y2AdEsqmRv1YciY3_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-3" value="Incorrect Guess Screen:&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Output:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Wrong guess!&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Word: _ _ _ _ _ _&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Attempts left: 5 | Score: 90&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1961" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-122" value="All letters&amp;nbsp;&lt;div&gt;guessed&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-4" target="QXbLeOJ_4Gdq7aWpGLUa-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-4" target="by8Y2AdEsqmRv1YciY3_-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-4" value="Correct Guess Screen:&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Good guess!&lt;/div&gt;&lt;div&gt;&lt;div&gt;Word: p _ _ _ _ _&lt;/div&gt;&lt;div&gt;Attempts left: 6 | Score: 110&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1961" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-5" target="QXbLeOJ_4Gdq7aWpGLUa-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-5" value="Add Word &quot;Difficulty&quot; Screen:&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-------------------------------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;First Output:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Enter difficulty (Easy/Medium/Hard):&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-6" target="by8Y2AdEsqmRv1YciY3_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-6" value="Hint Screen:&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Would you like a hint? (yes/no):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-7" value="Win Screen:&lt;div&gt;&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Well done!&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The word was &quot;python&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Your final score: [score]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="2241" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-103" value="If Attempts ≤ 3&lt;div&gt;and hint_used = false&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-10" target="QXbLeOJ_4Gdq7aWpGLUa-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="979" y="240" as="sourcePoint" />
+            <mxPoint x="869" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="420" />
+              <mxPoint x="1340" y="300" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-10" target="QXbLeOJ_4Gdq7aWpGLUa-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="420" />
+              <mxPoint x="1340" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-10" value="&amp;nbsp;First Display Word and Stats Screen:&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Word: _ _ _ _ _ _&lt;/div&gt;&lt;div&gt;Attempts left: 6 | Score: 100&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-12" value="Lose Screen:&lt;div&gt;-------------------------------------------------&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Game over!&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The word was &quot;python&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Your final score: 0&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="2241" y="559.94" width="200.06" height="200.06" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-37" target="QXbLeOJ_4Gdq7aWpGLUa-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-37" value="&lt;div&gt;Choose Difficulty Screen:&lt;/div&gt;&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Output:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Choose difficulty (Easy/Medium/Hard):&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-46" target="by8Y2AdEsqmRv1YciY3_-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-46" value="Add Word &quot;word&quot; Screen&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-------------------------------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Output:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Enter a new word:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="600" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-118" value="Guess is&amp;nbsp;&lt;div&gt;correct&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-91" target="QXbLeOJ_4Gdq7aWpGLUa-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-119" value="Guess is&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;incorrect&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QXbLeOJ_4Gdq7aWpGLUa-91" target="QXbLeOJ_4Gdq7aWpGLUa-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXbLeOJ_4Gdq7aWpGLUa-91" value="Guess Screen:&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Enter a letter or&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;guess the full word:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1641" y="444.94" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="by8Y2AdEsqmRv1YciY3_-1" target="QXbLeOJ_4Gdq7aWpGLUa-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="800" />
+              <mxPoint x="140" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-1" value="Added Word &quot;word&quot; Screen&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-------------------------------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Word &#39;_ _ _ _ _ _&#39; added to &#39;example&#39; difficulty!&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="840" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="by8Y2AdEsqmRv1YciY3_-5" target="QXbLeOJ_4Gdq7aWpGLUa-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2061" y="40" />
+              <mxPoint x="1180" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-5" value="Display Word and Stats Screen:&lt;div&gt;(After correct guess)&lt;/div&gt;&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;&lt;div&gt;Word: p _ _ _ _ _&lt;/div&gt;&lt;div&gt;Attempts left: 6 | Score: 110&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1961" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="by8Y2AdEsqmRv1YciY3_-6" target="QXbLeOJ_4Gdq7aWpGLUa-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2061" y="1040" />
+              <mxPoint x="1180" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-6" value="Display Word and Stats Screen:&lt;div&gt;(After incorrect guess)&lt;/div&gt;&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Word: _ _ _ _ _ _&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Attempts left: 5 | Score: 90&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1961" y="799.9999999999999" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="by8Y2AdEsqmRv1YciY3_-7" value="&lt;div&gt;Hint Screen:&lt;/div&gt;&lt;div&gt;(after hint used)&lt;/div&gt;&lt;div&gt;-------------------------------------------------&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Hint used! A letter has been revealed:&amp;nbsp;&lt;/div&gt;&lt;div&gt;_ _ _ h _ _&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1639" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
